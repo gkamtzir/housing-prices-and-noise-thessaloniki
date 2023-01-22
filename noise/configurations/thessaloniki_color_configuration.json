@@ -1,0 +1,56 @@
+[
+    {
+        "name": "green",
+        "color": [182, 254, 191],
+        "range": "[40, 45]",
+        "value": 42.5
+    },
+    {
+        "name": "yellow",
+        "color": [255, 255, 0],
+        "range": "[45, 50]",
+        "value": 47.5
+    },
+    {
+        "name": "light orange",
+        "color": [254, 196, 71],
+        "range": "[50, 55]",
+        "value": 52.5
+    },
+    {
+        "name": "orange",
+        "color": [253, 103, 2],
+        "range": "[55, 60]",
+        "value": 57.5
+    },
+    {
+        "name": "red",
+        "color": [255, 51, 50],
+        "range": "[60, 65]",
+        "value": 62.5
+    },
+    {
+        "name": "dark red",
+        "color": [152, 0, 51],
+        "range": "[65, 70]",
+        "value": 67.5
+    },
+    {
+        "name": "light blue",
+        "color": [174, 155, 219],
+        "range": "[70, 75]",
+        "value": 72.5
+    },
+    {
+        "name": "blue",
+        "color": [1, 0, 251],
+        "range": "[75, 80]",
+        "value": 77.5
+    },
+    {
+        "name": "dark blue",
+        "color": [1, 1, 65],
+        "range": "[80, ]",
+        "value": 82.5
+    }
+]
