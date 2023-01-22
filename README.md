@@ -53,6 +53,10 @@ The reconstructed noise datasets are located in the `noise/generated-data` folde
 
 **All files, both generated and primitive data, can be found in [this](https://drive.google.com/drive/folders/142-YkH6WTpKnRS0YuA8rglowneBqvTML?usp=sharing) GDrive folder.**
 
+## Openhouse Properties
+The final version of the Openhouse properties must be moved from GDrive's `properties`
+folder to the `data` folder of this repository. There are 2 version each with a different radius (50 and 100 meters).
+
 ## Experiments
 Each model has its own experiment file which can be executed via command line by providing
 the required arguments. These are:
