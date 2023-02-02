@@ -15,7 +15,7 @@ import numpy as np
 if __name__ == "__main__":
     # These are the best performing models.
 
-    # df = pd.read_parquet("./data/properties_noise_50_encoded_one_hot.parquet.gzip")
+    # df = pd.read_parquet("./data/properties_noise_50.parquet.gzip")
     # model = XGBRegressor(colsample_bytree=0.6754824399235599,
     #                      learning_rate=0.041788775351237435,
     #                      max_depth=5,
@@ -23,7 +23,7 @@ if __name__ == "__main__":
     # df = filter_based_on_test_case(df, 1, "A")
 
     # XGBoost (r=100, noise=1, area="B")
-    # df = pd.read_parquet("./data/properties_noise_100_encoded_one_hot.parquet.gzip")
+    # df = pd.read_parquet("./data/properties_noise_100.parquet.gzip")
     # model = XGBRegressor(colsample_bytree=0.6812720467459926,
     #                      learning_rate=0.0436683325289631,
     #                      max_depth=7,
@@ -31,7 +31,7 @@ if __name__ == "__main__":
     # df = filter_based_on_test_case(df, 1, "B")
 
     # LGBM (r=50, noise=3, area="C")
-    df = pd.read_parquet("./data/properties_noise_50_encoded_one_hot.parquet.gzip")
+    df = pd.read_parquet("./data/properties_noise_50.parquet.gzip")
     model = lgb.LGBMRegressor(colsample_bytree=0.6609840999909818,
                               learning_rate=0.07216196668844649,
                               max_depth=10,
